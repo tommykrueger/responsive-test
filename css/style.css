@@ -135,10 +135,11 @@ body {
 		line-height: 70px;
 		text-align: center;
 		cursor: pointer;
+		background: url(../img/mainmenu-icon.png);
 		}	
 	#mainmenu-icon:hover,
 	#mainmenu-icon.active {
-		background: #333;
+		background-color: #333;
 		}	
 
 
@@ -174,6 +175,7 @@ body {
 #content-block p {
 	margin: 24px 0;
 	font-size: 1.3em;
+	text-align: justify;
 	}
 
 
@@ -302,5 +304,24 @@ ul#mainmenu {
 	#content-block p {
 		margin: 12px 0;
 		font-size: 1.2em;
+		}
+}
+
+/***************
+ * MEDIA QUERIES
+ **************/
+@media only screen and (max-width: 480px) {
+	
+	#content-block {
+		padding: 32px 16px;
+		}
+	
+	#content-block h1 {
+		font-size: 1.4em;
+		text-transform: uppercase;
+		}
+	#content-block p {
+		margin: 12px 0;
+		font-size: 1em;
 		}
 }
